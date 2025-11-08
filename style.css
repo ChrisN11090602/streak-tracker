@@ -1,15 +1,58 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Streak Tracker</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>🔥 Streak Tracker</h1>
-  <p>Tu primer proyecto interactivo 🚀</p>
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f0fdf4;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-  <script src="script.js"></script>
-</body>
-</html>
+.container {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+h1 {
+  color: #16a34a;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.counter {
+  font-size: 1.3em;
+  margin: 15px 0;
+}
+
+#dayCount {
+  display: block;
+  font-size: 3em;
+  color: #16a34a;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #16a34a;
+}

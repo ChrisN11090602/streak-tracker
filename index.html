@@ -3,12 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Streak Tracker</title>
+  <title>🔥 Streak Tracker</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🔥 Streak Tracker v1.1</h1>
-  <p>Tu primer proyecto interactivo 🚀</p>
+  <div class="container">
+    <h1>🔥 Streak Tracker</h1>
+
+    <label for="streakName">Nombre de tu racha:</label>
+    <input type="text" id="streakName" placeholder="Ej. Leer 10 minutos" />
+
+    <div class="counter">
+      <p>Días consecutivos:</p>
+      <span id="dayCount">0</span>
+    </div>
+
+    <button id="completeDayBtn">✅ Día completado</button>
+  </div>
 
   <script src="script.js"></script>
 </body>
